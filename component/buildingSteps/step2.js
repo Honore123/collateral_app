@@ -1,13 +1,6 @@
 import React, { Component } from "react";
-import {
-  Picker,
-  ScrollView,
-  StyleSheet,
-  View,
-  Text,
-  Alert,
-  Image,
-} from "react-native";
+import { ScrollView, StyleSheet, View, Text, Alert, Image } from "react-native";
+import { Picker } from "@react-native-picker/picker";
 import { Card, Input, CheckBox, Button, Icon } from "react-native-elements";
 import { connect } from "react-redux";
 import ValidationComponent from "react-native-form-validator";

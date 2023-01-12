@@ -1,13 +1,5 @@
 import React, { Component } from "react";
-import {
-  Picker,
-  ScrollView,
-  StyleSheet,
-  View,
-  Text,
-  Alert,
-  Image,
-} from "react-native";
+import { ScrollView, StyleSheet, View, Text, Alert } from "react-native";
 import { Card, Input, CheckBox, Button, Icon } from "react-native-elements";
 import ValidationComponent from "react-native-form-validator";
 

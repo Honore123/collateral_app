@@ -1,3 +1,2 @@
-export const baseUrl = "http://cis.realcovenants.com/api/";
-export const DownloadLink =
-  "http://cis.realcovenants.com/storage/generatedPdf/";
+export const baseUrl = "http://cis.covenants.rw/api/";
+export const DownloadLink = "http://cis.covenants.rw/storage/generatedPdf/";

@@ -19,7 +19,7 @@ import { sectors } from "./sectors";
 import { cells } from "./cells";
 import { villages } from "./villages";
 import { persistStore, persistCombineReducers } from "redux-persist";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { AsyncStorage } from "@react-native-async-storage/async-storage";
 
 const config = {
   key: "root",

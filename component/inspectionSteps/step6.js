@@ -1,14 +1,6 @@
 import React, { Component } from "react";
-import {
-  Picker,
-  ScrollView,
-  StyleSheet,
-  View,
-  Text,
-  Alert,
-  TouchableOpacity,
-} from "react-native";
-import { Card, Input, CheckBox, Button } from "react-native-elements";
+import { ScrollView, StyleSheet, View, Text, Alert } from "react-native";
+import { Card, CheckBox, Button } from "react-native-elements";
 import ValidationComponent from "react-native-form-validator";
 
 class step6 extends ValidationComponent {

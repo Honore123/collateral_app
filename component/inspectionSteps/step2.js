@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {
-  Picker,
   ScrollView,
   StyleSheet,
   View,
@@ -10,6 +9,7 @@ import {
   ActivityIndicator,
   TouchableWithoutFeedback,
 } from "react-native";
+import { Picker } from "@react-native-picker/picker";
 import { Card, Button } from "react-native-elements";
 import ValidationComponent from "react-native-form-validator";
 import { connect } from "react-redux";
@@ -52,13 +52,8 @@ class step2 extends ValidationComponent {
 
   componentDidMount() {
     if (this.props.getState().province != undefined) {
-      const {
-        province,
-        district,
-        sector,
-        cell,
-        village,
-      } = this.props.getState();
+      const { province, district, sector, cell, village } =
+        this.props.getState();
       this.setState({
         province,
         district,
